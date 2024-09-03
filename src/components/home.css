@@ -1,0 +1,47 @@
+/* Userpage.css */
+
+.username {
+    cursor: pointer;
+    color: #007bff; /* Color for the username */
+}
+
+.navbar {
+    background-color: #f8f9fa; /* Background color for the navbar */
+    border: 1px solid #dee2e6; /* Border color for the navbar */
+    border-radius: 4px; /* Rounded corners for the navbar */
+    position: absolute; /* Positioning for the dropdown effect */
+    top: 40px; /* Position the navbar below the username */
+    right: 0;
+    width: 200px; /* Width of the navbar */
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.1); /* Shadow for the navbar */
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    border-bottom: 1px solid #dee2e6; /* Border between items */
+}
+
+.navbar li:last-child {
+    border-bottom: none; /* Remove the border for the last item */
+}
+
+.navbar a {
+    display: block;
+    padding: 10px;
+    color: #000; /* Color for the text */
+    text-decoration: none;
+}
+
+.navbar a.active {
+    background-color: #007bff; /* Background color for the active link */
+    color: #fff; /* Color for the active link text */
+}
+
+.navbar a:hover {
+    background-color: #e9ecef; /* Background color on hover */
+}
